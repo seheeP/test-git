@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-13T18:37:40.841Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="95r4bLsJ6HXygR3olnKD" version="15.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-13T18:57:42.427Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="zEci4bpIBNK-J87s1I-t" version="15.5.2" type="github">
   <diagram id="W18y40_028-mIcSXG0eX" name="Page-1">
-    <mxGraphModel dx="2243" dy="2286" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2243" dy="1117" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -55,59 +55,69 @@
         <mxCell id="BiQR835A_vavRzKwFg6K-15" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.jumpInArrow;dy=15;dx=38;arrowHead=55;rounded=1;strokeWidth=5;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
           <mxGeometry x="650" y="10" width="180" height="210" as="geometry" />
         </mxCell>
-        <mxCell id="BiQR835A_vavRzKwFg6K-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BiQR835A_vavRzKwFg6K-17" target="BiQR835A_vavRzKwFg6K-18">
+        <mxCell id="BiQR835A_vavRzKwFg6K-130" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="830" y="15" width="360" height="845" as="geometry" />
+        </mxCell>
+        <mxCell id="BiQR835A_vavRzKwFg6K-17" value="start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=0;fillColor=none;" vertex="1" parent="BiQR835A_vavRzKwFg6K-130">
+          <mxGeometry x="120" y="45" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BiQR835A_vavRzKwFg6K-18" value="idle" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=2;fillColor=none;glass=0;sketch=0;" vertex="1" parent="BiQR835A_vavRzKwFg6K-130">
+          <mxGeometry x="80" y="185" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BiQR835A_vavRzKwFg6K-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="BiQR835A_vavRzKwFg6K-130" source="BiQR835A_vavRzKwFg6K-17" target="BiQR835A_vavRzKwFg6K-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BiQR835A_vavRzKwFg6K-17" value="start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=0;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="990" y="60" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="BiQR835A_vavRzKwFg6K-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BiQR835A_vavRzKwFg6K-18" target="BiQR835A_vavRzKwFg6K-22">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="BiQR835A_vavRzKwFg6K-18" value="idle" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=2;fillColor=none;glass=0;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="950" y="200" width="180" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="BiQR835A_vavRzKwFg6K-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BiQR835A_vavRzKwFg6K-22" target="BiQR835A_vavRzKwFg6K-26">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="BiQR835A_vavRzKwFg6K-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BiQR835A_vavRzKwFg6K-22" target="BiQR835A_vavRzKwFg6K-18">
+        <mxCell id="BiQR835A_vavRzKwFg6K-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="BiQR835A_vavRzKwFg6K-130" source="BiQR835A_vavRzKwFg6K-22" target="BiQR835A_vavRzKwFg6K-18">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1160" y="220" as="targetPoint" />
+            <mxPoint x="290" y="205" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1160" y="370" />
-              <mxPoint x="1160" y="230" />
+              <mxPoint x="290" y="355" />
+              <mxPoint x="290" y="215" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="BiQR835A_vavRzKwFg6K-22" value="주말 또는 쉬는시간" style="rhombus;whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=2;fillColor=none;glass=0;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="950" y="330" width="180" height="80" as="geometry" />
+        <mxCell id="BiQR835A_vavRzKwFg6K-22" value="주말 또는 쉬는시간" style="rhombus;whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=2;fillColor=none;glass=0;sketch=0;" vertex="1" parent="BiQR835A_vavRzKwFg6K-130">
+          <mxGeometry x="80" y="315" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="BiQR835A_vavRzKwFg6K-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BiQR835A_vavRzKwFg6K-26" target="BiQR835A_vavRzKwFg6K-28">
+        <mxCell id="BiQR835A_vavRzKwFg6K-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="BiQR835A_vavRzKwFg6K-130" source="BiQR835A_vavRzKwFg6K-18" target="BiQR835A_vavRzKwFg6K-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BiQR835A_vavRzKwFg6K-26" value="프레스 작업 할당" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=2;fillColor=none;glass=0;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="950" y="500" width="180" height="60" as="geometry" />
+        <mxCell id="BiQR835A_vavRzKwFg6K-26" value="프레스 작업 할당" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=2;fillColor=none;glass=0;sketch=0;" vertex="1" parent="BiQR835A_vavRzKwFg6K-130">
+          <mxGeometry x="80" y="485" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BiQR835A_vavRzKwFg6K-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BiQR835A_vavRzKwFg6K-28" target="BiQR835A_vavRzKwFg6K-18">
+        <mxCell id="BiQR835A_vavRzKwFg6K-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="BiQR835A_vavRzKwFg6K-130" source="BiQR835A_vavRzKwFg6K-22" target="BiQR835A_vavRzKwFg6K-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BiQR835A_vavRzKwFg6K-31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="BiQR835A_vavRzKwFg6K-130" source="BiQR835A_vavRzKwFg6K-28" target="BiQR835A_vavRzKwFg6K-18">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1160" y="230" as="targetPoint" />
+            <mxPoint x="290" y="215" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1160" y="670" />
-              <mxPoint x="1160" y="230" />
+              <mxPoint x="290" y="655" />
+              <mxPoint x="290" y="215" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="BiQR835A_vavRzKwFg6K-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BiQR835A_vavRzKwFg6K-28" target="BiQR835A_vavRzKwFg6K-32">
+        <mxCell id="BiQR835A_vavRzKwFg6K-176" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="BiQR835A_vavRzKwFg6K-130" target="BiQR835A_vavRzKwFg6K-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="725" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BiQR835A_vavRzKwFg6K-28" value="프레스 작업 시작" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=2;fillColor=none;glass=0;sketch=0;" vertex="1" parent="BiQR835A_vavRzKwFg6K-130">
+          <mxGeometry x="80" y="625" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BiQR835A_vavRzKwFg6K-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="BiQR835A_vavRzKwFg6K-130" source="BiQR835A_vavRzKwFg6K-26" target="BiQR835A_vavRzKwFg6K-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BiQR835A_vavRzKwFg6K-28" value="프레스 작업 시작" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=2;fillColor=none;glass=0;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="950" y="640" width="180" height="60" as="geometry" />
+        <mxCell id="BiQR835A_vavRzKwFg6K-32" value="end" style="ellipse;whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=2;fillColor=none;glass=0;sketch=0;" vertex="1" parent="BiQR835A_vavRzKwFg6K-130">
+          <mxGeometry x="110" y="765" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BiQR835A_vavRzKwFg6K-32" value="end" style="ellipse;whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=2;fillColor=none;glass=0;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="980" y="780" width="120" height="60" as="geometry" />
+        <mxCell id="BiQR835A_vavRzKwFg6K-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="BiQR835A_vavRzKwFg6K-130" target="BiQR835A_vavRzKwFg6K-32">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="170" y="725" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="BiQR835A_vavRzKwFg6K-34" value="시뮬레이션 종료까지 반복" style="swimlane;rounded=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="920" y="150" width="270" height="590" as="geometry" />
+        <mxCell id="BiQR835A_vavRzKwFg6K-34" value="시뮬레이션 종료까지 반복" style="swimlane;rounded=1;strokeWidth=2;" vertex="1" parent="BiQR835A_vavRzKwFg6K-130">
+          <mxGeometry x="50" y="135" width="270" height="590" as="geometry" />
         </mxCell>
         <mxCell id="BiQR835A_vavRzKwFg6K-37" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="BiQR835A_vavRzKwFg6K-34">
           <mxGeometry x="120" y="280" width="30" height="20" as="geometry" />
@@ -115,156 +125,210 @@
         <mxCell id="BiQR835A_vavRzKwFg6K-38" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="BiQR835A_vavRzKwFg6K-34">
           <mxGeometry x="205" y="200" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="BiQR835A_vavRzKwFg6K-54" value="가열로 실행" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=22;rounded=0;strokeWidth=5;swimlaneLine=1;" vertex="1" parent="1">
-          <mxGeometry x="870" y="15" width="360" height="845" as="geometry" />
+        <mxCell id="BiQR835A_vavRzKwFg6K-54" value="프레스 실행" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=22;rounded=0;strokeWidth=5;swimlaneLine=1;" vertex="1" parent="BiQR835A_vavRzKwFg6K-130">
+          <mxGeometry width="360" height="845" as="geometry" />
+        </mxCell>
+        <mxCell id="BiQR835A_vavRzKwFg6K-129" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.jumpInArrow;dy=15;dx=38;arrowHead=55;rounded=1;strokeWidth=5;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="10" width="200" height="510" as="geometry" />
         </mxCell>
         <mxCell id="BiQR835A_vavRzKwFg6K-70" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="BiQR835A_vavRzKwFg6K-69">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1690" y="120" as="sourcePoint" />
+          <mxGeometry x="1280" y="15" as="geometry">
+            <mxPoint x="1440" y="260" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BiQR835A_vavRzKwFg6K-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BiQR835A_vavRzKwFg6K-69" target="BiQR835A_vavRzKwFg6K-71">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="BiQR835A_vavRzKwFg6K-69" value="리스트에서 작업 선택" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=2;fillColor=none;glass=0;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="1600" y="200" width="180" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="BiQR835A_vavRzKwFg6K-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BiQR835A_vavRzKwFg6K-71" target="BiQR835A_vavRzKwFg6K-75">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="BiQR835A_vavRzKwFg6K-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BiQR835A_vavRzKwFg6K-71" target="BiQR835A_vavRzKwFg6K-90">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry x="1350" y="340" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BiQR835A_vavRzKwFg6K-71" value="현재 프레스 가능 &lt;br&gt;작업들이 있는가" style="rhombus;whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=2;fillColor=none;glass=0;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="1600" y="330" width="180" height="80" as="geometry" />
+          <mxGeometry x="1350" y="470" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="BiQR835A_vavRzKwFg6K-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BiQR835A_vavRzKwFg6K-75" target="BiQR835A_vavRzKwFg6K-77">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="BiQR835A_vavRzKwFg6K-72" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BiQR835A_vavRzKwFg6K-69" target="BiQR835A_vavRzKwFg6K-71">
+          <mxGeometry x="1280" y="15" as="geometry" />
         </mxCell>
         <mxCell id="BiQR835A_vavRzKwFg6K-110" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BiQR835A_vavRzKwFg6K-75">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1690" y="1260" as="targetPoint" />
+          <mxGeometry x="1280" y="15" as="geometry">
+            <mxPoint x="1440" y="1400" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1570" y="530" />
-              <mxPoint x="1570" y="1240" />
-              <mxPoint x="1690" y="1240" />
+              <mxPoint x="1320" y="670" />
+              <mxPoint x="1320" y="1380" />
+              <mxPoint x="1440" y="1380" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="BiQR835A_vavRzKwFg6K-75" value="현재 총 작업 시간이&lt;br&gt;10시간 초과인가" style="rhombus;whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=2;fillColor=none;glass=0;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="1600" y="490" width="180" height="80" as="geometry" />
+          <mxGeometry x="1350" y="630" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="BiQR835A_vavRzKwFg6K-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BiQR835A_vavRzKwFg6K-77" target="BiQR835A_vavRzKwFg6K-79">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="BiQR835A_vavRzKwFg6K-76" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BiQR835A_vavRzKwFg6K-71" target="BiQR835A_vavRzKwFg6K-75">
+          <mxGeometry x="1280" y="15" as="geometry" />
         </mxCell>
         <mxCell id="BiQR835A_vavRzKwFg6K-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BiQR835A_vavRzKwFg6K-77" target="BiQR835A_vavRzKwFg6K-69">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1810" y="220" as="targetPoint" />
+          <mxGeometry x="1280" y="15" as="geometry">
+            <mxPoint x="1560" y="360" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1810" y="690" />
-              <mxPoint x="1810" y="230" />
+              <mxPoint x="1560" y="830" />
+              <mxPoint x="1560" y="370" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="BiQR835A_vavRzKwFg6K-77" value="해당 조에서 main shaft&lt;br&gt;작업을 할 수 있는가" style="rhombus;whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=2;fillColor=none;glass=0;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="1600" y="650" width="180" height="80" as="geometry" />
+          <mxGeometry x="1350" y="790" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BiQR835A_vavRzKwFg6K-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BiQR835A_vavRzKwFg6K-75" target="BiQR835A_vavRzKwFg6K-77">
+          <mxGeometry x="1280" y="15" as="geometry" />
         </mxCell>
         <mxCell id="BiQR835A_vavRzKwFg6K-82" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BiQR835A_vavRzKwFg6K-79">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1690" y="970" as="targetPoint" />
+          <mxGeometry x="1280" y="15" as="geometry">
+            <mxPoint x="1440" y="1110" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BiQR835A_vavRzKwFg6K-79" value="현재 요일이 금요일이라면&lt;br&gt;단조제품 공정인가" style="rhombus;whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=2;fillColor=none;glass=0;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="1600" y="810" width="180" height="80" as="geometry" />
+          <mxGeometry x="1350" y="950" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="BiQR835A_vavRzKwFg6K-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BiQR835A_vavRzKwFg6K-83" target="BiQR835A_vavRzKwFg6K-85">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="BiQR835A_vavRzKwFg6K-80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BiQR835A_vavRzKwFg6K-77" target="BiQR835A_vavRzKwFg6K-79">
+          <mxGeometry x="1280" y="15" as="geometry" />
         </mxCell>
         <mxCell id="BiQR835A_vavRzKwFg6K-83" value="해당 작업이 쉬는시간에&amp;nbsp;&lt;br&gt;끝나는가" style="rhombus;whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=2;fillColor=none;glass=0;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="1600" y="970" width="180" height="80" as="geometry" />
+          <mxGeometry x="1350" y="1110" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="BiQR835A_vavRzKwFg6K-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BiQR835A_vavRzKwFg6K-85" target="BiQR835A_vavRzKwFg6K-87">
+        <mxCell id="BiQR835A_vavRzKwFg6K-184" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="BiQR835A_vavRzKwFg6K-85" target="BiQR835A_vavRzKwFg6K-69">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1610" y="1310" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1690" y="1240" />
-              <mxPoint x="1690" y="1240" />
+              <mxPoint x="1560" y="1310" />
+              <mxPoint x="1560" y="370" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="BiQR835A_vavRzKwFg6K-85" value="프레스 점수 계산" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=2;fillColor=none;glass=0;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="1600" y="1140" width="180" height="60" as="geometry" />
+          <mxGeometry x="1350" y="1280" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BiQR835A_vavRzKwFg6K-86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BiQR835A_vavRzKwFg6K-83" target="BiQR835A_vavRzKwFg6K-85">
+          <mxGeometry x="1280" y="15" as="geometry" />
         </mxCell>
         <mxCell id="BiQR835A_vavRzKwFg6K-87" value="가장 낮은 프레스 점수를 가진 &lt;br&gt;작업 선택" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=2;fillColor=none;glass=0;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="1600" y="1280" width="180" height="60" as="geometry" />
+          <mxGeometry x="1350" y="1420" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BiQR835A_vavRzKwFg6K-88" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="BiQR835A_vavRzKwFg6K-87">
+          <mxGeometry x="1280" y="15" as="geometry">
+            <mxPoint x="1440" y="1360" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="1440" y="1380" />
+              <mxPoint x="1440" y="1380" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="BiQR835A_vavRzKwFg6K-89" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1690" y="440" width="40" height="20" as="geometry" />
+          <mxGeometry x="1440" y="580" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="BiQR835A_vavRzKwFg6K-90" value="5분 대기 후 &lt;br&gt;프레스 가능 작업&lt;br&gt;재탐색" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=2;fillColor=none;glass=0;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="1890" y="340" width="120" height="60" as="geometry" />
+          <mxGeometry x="1640" y="480" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BiQR835A_vavRzKwFg6K-91" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BiQR835A_vavRzKwFg6K-71" target="BiQR835A_vavRzKwFg6K-90">
+          <mxGeometry x="1280" y="15" as="geometry" />
         </mxCell>
         <mxCell id="BiQR835A_vavRzKwFg6K-92" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1695" y="600" width="30" height="20" as="geometry" />
+          <mxGeometry x="1445" y="740" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="BiQR835A_vavRzKwFg6K-93" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1690" y="760" width="40" height="20" as="geometry" />
+          <mxGeometry x="1440" y="900" width="40" height="20" as="geometry" />
         </mxCell>
         <mxCell id="BiQR835A_vavRzKwFg6K-94" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1695" y="920" width="30" height="20" as="geometry" />
+          <mxGeometry x="1445" y="1060" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="BiQR835A_vavRzKwFg6K-96" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1695" y="1090" width="30" height="20" as="geometry" />
+          <mxGeometry x="1445" y="1230" width="30" height="20" as="geometry" />
         </mxCell>
         <mxCell id="BiQR835A_vavRzKwFg6K-97" value="프레스 가능 작업 리스트 입력" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=2;fillColor=none;glass=0;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="1600" y="60" width="180" height="60" as="geometry" />
+          <mxGeometry x="1350" y="200" width="180" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BiQR835A_vavRzKwFg6K-100" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1780" y="850" as="sourcePoint" />
-            <mxPoint x="1780" y="230" as="targetPoint" />
+          <mxGeometry x="1280" y="15" as="geometry">
+            <mxPoint x="1530" y="990" as="sourcePoint" />
+            <mxPoint x="1530" y="370" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1780" y="850" />
-              <mxPoint x="1810" y="850" />
-              <mxPoint x="1810" y="230" />
+              <mxPoint x="1530" y="990" />
+              <mxPoint x="1560" y="990" />
+              <mxPoint x="1560" y="370" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="BiQR835A_vavRzKwFg6K-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1780" y="850" as="sourcePoint" />
-            <mxPoint x="1780" y="230" as="targetPoint" />
+          <mxGeometry x="1280" y="15" as="geometry">
+            <mxPoint x="1530" y="990" as="sourcePoint" />
+            <mxPoint x="1530" y="370" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1780" y="850" />
-              <mxPoint x="1810" y="850" />
-              <mxPoint x="1810" y="230" />
+              <mxPoint x="1530" y="990" />
+              <mxPoint x="1560" y="990" />
+              <mxPoint x="1560" y="370" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="BiQR835A_vavRzKwFg6K-102" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1780" y="1010" as="sourcePoint" />
-            <mxPoint x="1780" y="230" as="targetPoint" />
+          <mxGeometry x="1280" y="15" as="geometry">
+            <mxPoint x="1530" y="1150" as="sourcePoint" />
+            <mxPoint x="1530" y="370" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1780" y="1010" />
-              <mxPoint x="1810" y="1010" />
-              <mxPoint x="1810" y="230" />
+              <mxPoint x="1530" y="1150" />
+              <mxPoint x="1560" y="1150" />
+              <mxPoint x="1560" y="370" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="BiQR835A_vavRzKwFg6K-103" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1820" y="350" width="30" height="20" as="geometry" />
+          <mxGeometry x="1570" y="490" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="BiQR835A_vavRzKwFg6K-108" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="414" y="750" width="180" height="660" as="geometry" />
+        <mxCell id="BiQR835A_vavRzKwFg6K-111" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1320" y="650" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="BiQR835A_vavRzKwFg6K-55" value="start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=0;fillColor=none;" vertex="1" parent="BiQR835A_vavRzKwFg6K-108">
-          <mxGeometry x="40" width="100" height="60" as="geometry" />
+        <mxCell id="BiQR835A_vavRzKwFg6K-112" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="810" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BiQR835A_vavRzKwFg6K-113" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1525" y="970" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BiQR835A_vavRzKwFg6K-114" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1525" y="1130" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BiQR835A_vavRzKwFg6K-116" value="프레스 가능 작업 리스트만큼 반복" style="swimlane;rounded=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="1305" y="295" width="485" height="1065" as="geometry" />
+        </mxCell>
+        <mxCell id="BiQR835A_vavRzKwFg6K-117" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="BiQR835A_vavRzKwFg6K-116">
+          <mxGeometry x="120" y="280" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BiQR835A_vavRzKwFg6K-118" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="BiQR835A_vavRzKwFg6K-116">
+          <mxGeometry x="205" y="200" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BiQR835A_vavRzKwFg6K-120" value="start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=0;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1390" y="62" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BiQR835A_vavRzKwFg6K-122" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry x="1280" y="15" as="geometry">
+            <mxPoint x="1441" y="121" as="sourcePoint" />
+            <mxPoint x="1441" y="201" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BiQR835A_vavRzKwFg6K-125" value="end" style="ellipse;whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=2;fillColor=none;glass=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="1380" y="1560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="BiQR835A_vavRzKwFg6K-126" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="BiQR835A_vavRzKwFg6K-87" target="BiQR835A_vavRzKwFg6K-125">
+          <mxGeometry x="1280" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="BiQR835A_vavRzKwFg6K-186" value="프레스 작업 할당" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=22;rounded=0;strokeWidth=5;swimlaneLine=1;" vertex="1" parent="1">
+          <mxGeometry x="1285" y="10" width="525" height="1630" as="geometry" />
+        </mxCell>
+        <mxCell id="BiQR835A_vavRzKwFg6K-187" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1890" y="10" width="280" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="BiQR835A_vavRzKwFg6K-108" value="" style="group" vertex="1" connectable="0" parent="BiQR835A_vavRzKwFg6K-187">
+          <mxGeometry x="40" y="170" width="180" height="660" as="geometry" />
         </mxCell>
         <mxCell id="BiQR835A_vavRzKwFg6K-58" value="다음 공정이 &lt;br&gt;프레스 공정인가" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;strokeWidth=2;fillColor=none;glass=0;sketch=0;" vertex="1" parent="BiQR835A_vavRzKwFg6K-108">
           <mxGeometry y="130" width="180" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="BiQR835A_vavRzKwFg6K-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="BiQR835A_vavRzKwFg6K-108" source="BiQR835A_vavRzKwFg6K-55" target="BiQR835A_vavRzKwFg6K-58">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="BiQR835A_vavRzKwFg6K-59" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="BiQR835A_vavRzKwFg6K-108" target="BiQR835A_vavRzKwFg6K-58">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="60" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="BiQR835A_vavRzKwFg6K-60" value="현재 홀딩중인가" style="rhombus;whiteSpace=wrap;html=1;rounded=0;shadow=0;strokeWidth=2;fillColor=none;glass=0;sketch=0;" vertex="1" parent="BiQR835A_vavRzKwFg6K-108">
           <mxGeometry y="290" width="180" height="80" as="geometry" />
@@ -275,8 +339,10 @@
         <mxCell id="BiQR835A_vavRzKwFg6K-64" value="프레스 가능 작업 리스트 출력" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=2;fillColor=none;glass=0;sketch=0;" vertex="1" parent="BiQR835A_vavRzKwFg6K-108">
           <mxGeometry y="460" width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BiQR835A_vavRzKwFg6K-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="BiQR835A_vavRzKwFg6K-108" source="BiQR835A_vavRzKwFg6K-60" target="BiQR835A_vavRzKwFg6K-64">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="BiQR835A_vavRzKwFg6K-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="BiQR835A_vavRzKwFg6K-108" target="BiQR835A_vavRzKwFg6K-64">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="410" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="BiQR835A_vavRzKwFg6K-66" value="end" style="ellipse;whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=2;fillColor=none;glass=0;sketch=0;" vertex="1" parent="BiQR835A_vavRzKwFg6K-108">
           <mxGeometry x="30" y="600" width="120" height="60" as="geometry" />
@@ -284,35 +350,64 @@
         <mxCell id="BiQR835A_vavRzKwFg6K-67" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="BiQR835A_vavRzKwFg6K-108" source="BiQR835A_vavRzKwFg6K-64" target="BiQR835A_vavRzKwFg6K-66">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BiQR835A_vavRzKwFg6K-111" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1570" y="510" width="40" height="20" as="geometry" />
+        <mxCell id="BiQR835A_vavRzKwFg6K-131" value="작업 선택" style="whiteSpace=wrap;html=1;rounded=1;shadow=0;strokeWidth=2;fillColor=none;glass=0;sketch=0;" vertex="1" parent="BiQR835A_vavRzKwFg6K-108">
+          <mxGeometry width="180" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BiQR835A_vavRzKwFg6K-112" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1780" y="670" width="30" height="20" as="geometry" />
+        <mxCell id="BiQR835A_vavRzKwFg6K-167" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="BiQR835A_vavRzKwFg6K-108" source="BiQR835A_vavRzKwFg6K-58" target="BiQR835A_vavRzKwFg6K-131">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="30" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="170" />
+              <mxPoint x="210" y="30" />
+            </Array>
+          </mxGeometry>
         </mxCell>
-        <mxCell id="BiQR835A_vavRzKwFg6K-113" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1775" y="830" width="40" height="20" as="geometry" />
+        <mxCell id="BiQR835A_vavRzKwFg6K-169" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="BiQR835A_vavRzKwFg6K-108">
+          <mxGeometry x="85" y="240" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="BiQR835A_vavRzKwFg6K-114" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1775" y="990" width="40" height="20" as="geometry" />
+        <mxCell id="BiQR835A_vavRzKwFg6K-170" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="BiQR835A_vavRzKwFg6K-108">
+          <mxGeometry x="85" y="410" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="BiQR835A_vavRzKwFg6K-116" value="프레스 가능 작업 리스트만큼 반복" style="swimlane;rounded=1;strokeWidth=2;" vertex="1" parent="1">
-          <mxGeometry x="1555" y="155" width="270" height="1065" as="geometry" />
+        <mxCell id="BiQR835A_vavRzKwFg6K-132" value="start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=0;fillColor=none;" vertex="1" parent="BiQR835A_vavRzKwFg6K-187">
+          <mxGeometry x="80" y="40" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="BiQR835A_vavRzKwFg6K-117" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="BiQR835A_vavRzKwFg6K-116">
+        <mxCell id="BiQR835A_vavRzKwFg6K-133" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="BiQR835A_vavRzKwFg6K-187">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="101" as="sourcePoint" />
+            <mxPoint x="130" y="171" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BiQR835A_vavRzKwFg6K-165" value="프레스 실행" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=22;rounded=0;strokeWidth=5;swimlaneLine=1;" vertex="1" parent="BiQR835A_vavRzKwFg6K-187">
+          <mxGeometry width="280" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="BiQR835A_vavRzKwFg6K-168" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="BiQR835A_vavRzKwFg6K-187">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="500" as="sourcePoint" />
+            <mxPoint x="220" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="220" y="500" />
+              <mxPoint x="250" y="500" />
+              <mxPoint x="250" y="200" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BiQR835A_vavRzKwFg6K-171" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="BiQR835A_vavRzKwFg6K-187">
+          <mxGeometry x="220" y="320" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BiQR835A_vavRzKwFg6K-172" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="BiQR835A_vavRzKwFg6K-187">
+          <mxGeometry x="220" y="480" width="30" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="BiQR835A_vavRzKwFg6K-173" value="총 작업만큼 반복" style="swimlane;rounded=1;strokeWidth=2;" vertex="1" parent="BiQR835A_vavRzKwFg6K-187">
+          <mxGeometry x="10" y="130" width="260" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="BiQR835A_vavRzKwFg6K-174" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="BiQR835A_vavRzKwFg6K-173">
           <mxGeometry x="120" y="280" width="30" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="BiQR835A_vavRzKwFg6K-118" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="BiQR835A_vavRzKwFg6K-116">
+        <mxCell id="BiQR835A_vavRzKwFg6K-175" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="BiQR835A_vavRzKwFg6K-173">
           <mxGeometry x="205" y="200" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="BiQR835A_vavRzKwFg6K-120" value="start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;rounded=0;shadow=0;glass=0;sketch=0;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1640" y="-78" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="BiQR835A_vavRzKwFg6K-122" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1691" y="-19" as="sourcePoint" />
-            <mxPoint x="1691" y="61" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="BiQR835A_vavRzKwFg6K-189" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.jumpInArrow;dy=15;dx=38;arrowHead=55;rounded=1;strokeWidth=5;fillColor=#bac8d3;strokeColor=#23445d;" vertex="1" parent="1">
+          <mxGeometry x="1520" y="10" width="370" height="355" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
